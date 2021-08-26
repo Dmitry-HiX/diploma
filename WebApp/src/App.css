@@ -1,0 +1,38 @@
+.show-grid{
+    height: 100%;
+    margin-top:5px;
+    margin-bottom:5px; 
+}
+.col-grid{
+    margin-top:5px;
+    margin-bottom:5px; 
+}
+.row-grid{
+    margin-left:2px;
+    margin-right:2px; 
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.col-container-grid{
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:5px;
+    margin-bottom:5px; 
+}
+
+.dropdown-input label {
+	display: block;
+	padding: 3px 20px 0 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #333;
+	white-space: nowrap;
+}
